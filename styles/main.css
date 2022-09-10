@@ -1,0 +1,89 @@
+*{
+  margin: 0px;
+  padding: opx;
+  font-family:'Courier New', Courier, monospace;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+Ul{
+  list-style: none;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family:'Courier New', Courier, monospace
+}
+#blog{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+  border-bottom: 1px solid #000000;
+}
+
+.blog-heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.blog-heading span{
+  color: #B24592
+}
+.blog-heading h3{
+  font-size:xx-large;
+  color: #232526;
+font-weight: 700;
+}
+.blog-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0px;
+  flex-wrap: wrap;
+}
+.blog-box{
+  width: 460px;
+  background-color: #DAE2F8;
+border: 7px solid #DAE2F8;
+margin: 20px;
+}
+.blog-img{
+  width: 100%;
+  height: auto;
+}
+.blog-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.blog-text{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.blog-text span{
+  color: #B24592;
+  font-size: 0.9rem;
+}
+.blog-text .blog-title{
+font-size: 1.4rem;
+font-weight: 500;
+color: #000000;
+}
+.blog-text .blog-title:hover{
+  color: #4b6cb7;
+}
+.blog-text a{
+  color: #000000;
+}
+.blog-text a:hover{
+  color: #4b6cb7;
+}
+
+
