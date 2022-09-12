@@ -12,7 +12,7 @@ header {
 }
 
 a{
-  text-decoration: none;
+  text-decoration: none; 
 }
 Ul{
   list-style: none;
@@ -54,7 +54,7 @@ font-weight: 700;
 }
 .blog-box{
   width: 460px;
-  background-color: #DAE2F8;
+  background-color: #eef2f3;
 border: 7px solid #DAE2F8;
 margin: 20px;
 }
@@ -91,6 +91,38 @@ color: #000000;
 .blog-text a:hover{
   color: #4b6cb7;
 }
+
+
+/* style main over all pages */
+
+body {
+  background-color: #D4D3DD;
+  font-size: 17px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  
+  flex-direction: column;
+  
+}
+
+p {
+width: 70%;
+}
+
+h3 {
+  width: 70%;
+}
+
+h2 {
+  width: 70%;
+}
+
+footer {
+  font-size: 20px;
+}
+
+/* style main over all pages */
 
 @media(max-width:320px){ 
   .blog-box{
