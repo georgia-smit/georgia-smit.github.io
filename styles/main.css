@@ -92,4 +92,37 @@ color: #000000;
   color: #4b6cb7;
 }
 
+@media(max-width:320px){ 
+  .blog-box{
+    margin: 20px 10px;
+    width:100%;
+  }
+  #blog{
+    padding: 20px;
+  }
+}
+
+@media(max-width:768px){
+  .blog-box{
+    width: 70%;
+  }
+}
+
+
+@media(max-width:1200px){
+  .blog-box{
+    width: 300px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
 
